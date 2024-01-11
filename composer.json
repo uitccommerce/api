@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Uitccommerce\\Api\\": "src"
+            "uitccommerce\\api\\": "src"
         }
     },
     "require": {
@@ -31,15 +31,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Uitccommerce\\Api\\Providers\\ApiServiceProvider"
+                "uitccommerce\\api\\Providers\\ApiServiceProvider"
             ],
             "aliases": {
-                "ApiHelper": "Uitccommerce\\Api\\Facades\\ApiHelper"
+                "ApiHelper": "uitccommerce\\api\\Facades\\ApiHelper"
             }
         }
     },
     "config": {
         "sort-packages": true
-    },
-    "minimum-stability": "stable"
+    }
 }
