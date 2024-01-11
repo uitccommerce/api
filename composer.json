@@ -1,32 +1,9 @@
 {
-    "name": "uitccommerce/api",
-    "description": "API package for Uitccommerce CMS",
-    "type": "package",
-    "license": "MIT",
-    "keywords": [
-        "Uitccommerce",
-        "Uitccommerce cms",
-        "Uitccommerce platform",
-        "Uitccommerce api"
-    ],
-    "homepage": "https://uitccommerce.com",
-    "authors": [
-        {
-            "name": "uitccommerce Technologies",
-            "email": "contact@uitccommerce.com"
-        }
-    ],
+    "name": "Uitccommerce/api",
     "autoload": {
         "psr-4": {
             "Uitccommerce\\Api\\": "src"
         }
-    },
-    "require": {
-
-    },
-    "require-dev": {
-        "laravel/pint": "^1.4.0",
-        "phpunit/phpunit": "^9.0|^10.0"
     },
     "extra": {
         "laravel": {
@@ -41,5 +18,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
