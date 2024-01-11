@@ -9,16 +9,16 @@
         "Uitccommerce platform",
         "Uitccommerce api"
     ],
-    "homepage": "https://Uitccommerce.com",
+    "homepage": "https://uitccommerce.com",
     "authors": [
         {
-            "name": "Uitccommerce Technologies",
+            "name": "uitccommerce Technologies",
             "email": "contact@uitccommerce.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "uitccommerce\\api\\": "src"
+            "Uitccommerce\\Api\\": "src"
         }
     },
     "require": {
@@ -31,14 +31,15 @@
     "extra": {
         "laravel": {
             "providers": [
-                "uitccommerce\\api\\Providers\\ApiServiceProvider"
+                "Uitccommerce\\Api\\Providers\\ApiServiceProvider"
             ],
             "aliases": {
-                "ApiHelper": "uitccommerce\\api\\Facades\\ApiHelper"
+                "ApiHelper": "Uitccommerce\\Api\\Facades\\ApiHelper"
             }
         }
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "stable"
 }
