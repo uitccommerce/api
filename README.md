@@ -1,7 +1,7 @@
 # API for Uitccommerce CMS
 
 <p align="center">
-    <a href="https://packagist.org/packages/Uitccommerce/api"><img src="https://img.shields.io/packagist/v/Uitccommerce/api.svg?style=flat-square" alt="Latest V$
+    <a href="https://packagist.org/packages/uitccommerce/api"><img src="https://img.shields.io/packagist/v/uitccommerce/api.svg?style=flat-square" alt="Latest V$
     <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></a>
     <a href="https://packagist.org/packages/Uitccommerce/api"><img src="https://img.shields.io/packagist/dt/Uitccommerce/api.svg?style=flat-square" alt="Total D$
     <a href="https://codeclimate.com/github/Uitccommerce/api/maintainability"><img src="https://api.codeclimate.com/v1/badges/a6e4612307e3b3bf8252/maintainabil$
