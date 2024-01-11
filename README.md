@@ -12,7 +12,7 @@
 You can install the package via composer:
 
 ```shell
-composer require Uitccommerce/api
+composer require uitccommerce/api
 ```
 
 ## Documentation
