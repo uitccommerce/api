@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "uitccommerce\\api\\": "src"
+            "Uitccommerce\\Api\\": "src"
         }
     },
     "require": {
@@ -31,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "uitccommerce\\api\\Providers\\ApiServiceProvider"
+                "Uitccommerce\\Api\\Providers\\ApiServiceProvider"
             ],
             "aliases": {
-                "ApiHelper": "uitccommerce\\api\\Facades\\ApiHelper"
+                "ApiHelper": "Uitccommerce\\Api\\Facades\\ApiHelper"
             }
         }
     },
